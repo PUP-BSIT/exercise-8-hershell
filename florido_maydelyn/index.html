@@ -56,39 +56,78 @@
         <img src="images/meow.jpg" alt="cat" />
         <img src="images/meow.jpg" alt="cat" />
       </div>
-    </div>
-    <div class="form">
-      <form action="#">
-        <h2>Contact Me</h2>
-        <label for="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter your name"
-          required
-        />
 
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your Email"
-          required
-        />
+      <div class="form">
+        <form>
+          <h2>Contact Me</h2>
+          <div class="wrapper">
+            <div class="item1">
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@example.com"
+                required
+              />
+            </div>
 
-        <label for="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="5"
-          placeholder="Enter your message here..."
-          required
-        ></textarea>
+            <div class="item2">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
 
-        <button type="submit">Send Message</button>
-      </form>
+            <div class="item3">
+              <label for="age">Age:</label>
+              <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="Enter your age"
+                required
+              />
+            </div>
+
+            <div class="item4">
+              <label for="subject">Subject:</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter the subject"
+                required
+              />
+            </div>
+
+            <div class="item5">
+              <label for="copy">send me a copy</label>
+              <input type="checkbox" name="copy" id="copy" />
+            </div>
+
+            <div class="item6">
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="item7">
+              <button type="button">submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
 
     <div class="goals">
