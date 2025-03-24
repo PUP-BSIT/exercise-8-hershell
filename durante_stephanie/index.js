@@ -3,10 +3,10 @@ function validateComment() {
   let commentMessage = document.getElementById("comment_form");
   let commentButton = document.getElementById("comment_button");
 
-  if (comment_name.value.length < 1 || comment_message.value.length < 1) {
-    comment_button.disabled = true;
+  if (commentName.value.length && commentMessage.value.length) {
+    commentButton.disabled = false;
   } else {
-    comment_button.disabled = false;
+    commentButton.disabled = true;
   }
 }
 
