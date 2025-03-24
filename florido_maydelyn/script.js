@@ -20,5 +20,10 @@ function addElement() {
   commentHolder.textContent = nameInput + ": " + commentInput;
 }
 
+function clearInput() {
+  document.getElementById("comment_name").value = "";
+  document.getElementById("comment").value = "";
+}
+
 document.getElementById("comment_name").addEventListener("input", toggleButton);
 document.getElementById("comment").addEventListener("input", toggleButton);
