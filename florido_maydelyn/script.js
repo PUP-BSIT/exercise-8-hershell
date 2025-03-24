@@ -3,7 +3,7 @@ function toggleButton() {
   let commentInput = document.getElementById("comment");
   let commentButton = document.getElementById("comment_button");
 
-  if (nameInput.value.length > 0 && commentInput.value.length > 0) {
+  if (nameInput.value.length && commentInput.value.length) {
     commentButton.disabled = false;
   } else {
     commentButton.disabled = true;
