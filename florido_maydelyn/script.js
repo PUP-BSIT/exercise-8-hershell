@@ -18,6 +18,8 @@ function addElement() {
   let commentHolder = document.createElement("p");
   commentSection.append(commentHolder);
   commentHolder.textContent = nameInput + ": " + commentInput;
+
+  clearInput();
 }
 
 function clearInput() {
@@ -25,5 +27,9 @@ function clearInput() {
   document.getElementById("comment").value = "";
 }
 
-document.getElementById("comment_name").addEventListener("input", toggleButton);
-document.getElementById("comment").addEventListener("input", toggleButton);
+document
+  .getElementById("comment_name").addEventListener("input", toggleButton);
+document
+  .getElementById("comment").addEventListener("input", toggleButton);
+document
+  .getElementById("comment_button").addEventListener("click", addElement);
