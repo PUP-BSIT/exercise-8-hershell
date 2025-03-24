@@ -20,6 +20,7 @@ function addElement() {
   commentHolder.textContent = nameInput + ": " + commentInput;
 
   clearInput();
+  toggleButton();
 }
 
 function clearInput() {
