@@ -1,8 +1,11 @@
-function validateComment() {
-  let commentName = document.getElementById("comment_name");
-  let commentMessage = document.getElementById("comment_form");
-  let commentButton = document.getElementById("comment_button");
+const commentName = document.getElementById("comment_name");
+const commentMessage = document.getElementById("comment_form");
+const commentButton = document.getElementById("comment_button");
+const commentContainer = document.getElementById("comment_list");
 
+let commentData = [];
+
+function validateComment() {
   if (commentName.value.length && commentMessage.value.length) {
     commentButton.disabled = false;
   } else {
@@ -28,9 +31,6 @@ function addComment() {
   validateComment();
 }
 
-document
-  .getElementById("comment_name")
-  .addEventListener("input", validateComment);
-document
-  .getElementById("comment_form")
-  .addEventListener("input", validateComment);
+commentName.addEventListener("input", validateComment);
+commentMessage.addEventListener("input", validateComment);
+commentButton.addEventListener("click", addComment);
