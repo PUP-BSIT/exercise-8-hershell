@@ -4,3 +4,12 @@
 
 ## Description
 Hershell is a collaborative web development group focused on learning, growing, and building together. This project showcases our team's webpage, featuring individual portfolios of each member. As a team, we aim to enhance our skills in web development through hands-on collaboration and continuous improvement.
+
+## Netlify URL
+You can view our project live at [Hershell Webpage](https://pupt-dit-hershell-exercise-8.netlify.app/).
+
+### Team Members' Portfolios
+- [Riomalos, Zyrrah Feil](https://pupt-dit-hershell-exercise-8.netlify.app/riomalos_zyrrah/)
+- [Siervo, Jallaine Perpetua](https://pupt-dit-hershell-exercise-8.netlify.app/siervo_jallaineperpetua/)
+- [Florido, Maydelyn](https://pupt-dit-hershell-exercise-8.netlify.app/florido_maydelyn/)
+- [Durante, Stephanie](https://pupt-dit-hershell-exercise-8.netlify.app/durante_stephanie/)
