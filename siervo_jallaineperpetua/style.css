@@ -6,6 +6,7 @@ body {
   background: url("small_1989_10f5cd51d4.png");
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 h2 {
